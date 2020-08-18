@@ -34,7 +34,7 @@ export function ControlledCarousel() {
 					<img className="carousel-img" src={firstPhoto} alt="First slide" />
 					<Carousel.Caption>
 						<h3>First slide label</h3>
-						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						<p>Nulla vitae elit liber, a pharetra augue mollis interdum.</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 
@@ -43,7 +43,7 @@ export function ControlledCarousel() {
 					<img className="carousel-img" src={secondPhoto} alt="Second slide" />
 					<Carousel.Caption>
 						<h3>Second slide label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Lorem ipsum dolo sit amet, consectetur adipiscing elit.</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 
