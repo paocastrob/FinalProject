@@ -40,6 +40,10 @@ export function ControlledCarousel() {
 				<Carousel.Item>
 					<img className="carousel-img" src={firstPhoto} alt="First slide" />
 					<Carousel.Caption>
+
+						<h3>First slide label</h3>
+						<p>Nulla vitae elit liber, a pharetra augue mollis interdum.</p>
+
 						<div className="caption-background">
 							<h3>Welcome to SuperGig</h3>
 							<p>We connect members of your community who need help with a job or are looking to work.</p>
@@ -51,6 +55,10 @@ export function ControlledCarousel() {
 				<Carousel.Item>
 					<img className="carousel-img" src={secondPhoto} alt="Second slide" />
 					<Carousel.Caption>
+
+						<h3>Second slide label</h3>
+						<p>Lorem ipsum dolo sit amet, consectetur adipiscing elit.</p>
+
 						<div className="caption-background">
 							<h3>Hassle-Free</h3>
 							<p>We make the process of finding the right local person for your job easy.</p>
