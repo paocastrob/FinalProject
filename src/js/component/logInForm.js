@@ -14,7 +14,14 @@ export const LogInForm = () => {
 		<div className="logInForm-container">
 			{/* Image container - L hand side */}
 			<div className="logIn-second-container d-flex justify-content-around">
+
+				<img
+					className="logInForm-img"
+					src="https://image.freepik.com/free-vector/vector-illustration-woman-sitting-front-computer-working-project-searching-chating_101484-63.jpg"
+				/>
+
 				<img className="logInForm-img" src="https://i.imgur.com/Zvp3ZAV.jpg" />
+
 				{/* Log-in Form - R hand side */}
 				<Form>
 					<h1 className="d-flex justify-content-center">Log-In</h1>
@@ -29,6 +36,8 @@ export const LogInForm = () => {
 						<Form.Label>Password</Form.Label>
 						<Form.Control type="password" placeholder="Password" />
 					</Form.Group>
+
+
 					<a className="logInForm-forgotPassword" href="#">
 						Forgot Password
 					</a>
